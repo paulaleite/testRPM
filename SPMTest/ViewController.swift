@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import reflectium_ipsum
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var reflexionFeedbackLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
     }
+    
+    @IBAction func reflexionButton(_ sender: Any) {
+        reflexionFeedbackLabel.text = ReflectionGenerator.generatiumReflectium()
+        
+    }
+    
 
 
 }
