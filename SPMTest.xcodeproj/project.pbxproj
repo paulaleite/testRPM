@@ -13,7 +13,7 @@
 		1EC9B97D243D0CA900D80A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9B97B243D0CA900D80A7B /* Main.storyboard */; };
 		1EC9B97F243D0CAB00D80A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9B97E243D0CAB00D80A7B /* Assets.xcassets */; };
 		1EC9B982243D0CAB00D80A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9B980243D0CAB00D80A7B /* LaunchScreen.storyboard */; };
-		1EC9B98B243D0D7B00D80A7B /* reflectium-ipsum in Frameworks */ = {isa = PBXBuildFile; productRef = 1EC9B98A243D0D7B00D80A7B /* reflectium-ipsum */; };
+		1EC9B994243D205300D80A7B /* reflexion-ipsum-extends in Frameworks */ = {isa = PBXBuildFile; productRef = 1EC9B993243D205300D80A7B /* reflexion-ipsum-extends */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC9B98B243D0D7B00D80A7B /* reflectium-ipsum in Frameworks */,
+				1EC9B994243D205300D80A7B /* reflexion-ipsum-extends in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = SPMTest;
 			packageProductDependencies = (
-				1EC9B98A243D0D7B00D80A7B /* reflectium-ipsum */,
+				1EC9B993243D205300D80A7B /* reflexion-ipsum-extends */,
 			);
 			productName = SPMTest;
 			productReference = 1EC9B972243D0CA900D80A7B /* SPMTest.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 1EC9B969243D0CA800D80A7B;
 			packageReferences = (
-				1EC9B989243D0D7B00D80A7B /* XCRemoteSwiftPackageReference "reflectium-ipsum" */,
+				1EC9B992243D205300D80A7B /* XCRemoteSwiftPackageReference "reflexion-ipsum-extends" */,
 			);
 			productRefGroup = 1EC9B973243D0CA900D80A7B /* Products */;
 			projectDirPath = "";
@@ -348,21 +348,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1EC9B989243D0D7B00D80A7B /* XCRemoteSwiftPackageReference "reflectium-ipsum" */ = {
+		1EC9B992243D205300D80A7B /* XCRemoteSwiftPackageReference "reflexion-ipsum-extends" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/JulioBBL/reflectium-ipsum";
+			repositoryURL = "https://github.com/paulaleite/reflexion-ipsum-extends";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
+				minimumVersion = 1.1.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1EC9B98A243D0D7B00D80A7B /* reflectium-ipsum */ = {
+		1EC9B993243D205300D80A7B /* reflexion-ipsum-extends */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1EC9B989243D0D7B00D80A7B /* XCRemoteSwiftPackageReference "reflectium-ipsum" */;
-			productName = "reflectium-ipsum";
+			package = 1EC9B992243D205300D80A7B /* XCRemoteSwiftPackageReference "reflexion-ipsum-extends" */;
+			productName = "reflexion-ipsum-extends";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
